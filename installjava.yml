@@ -1,5 +1,5 @@
 ---
-- hosts: ashok
+- hosts: shiva
   become: yes
   tasks:
   - name: install java6 on ubuntu16
