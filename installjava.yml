@@ -1,5 +1,5 @@
 ---
-- hosts: All
+- hosts: all:wq
   become: yes
   tasks:
   - name: install java6 on ubuntu16
