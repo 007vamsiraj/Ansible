@@ -9,7 +9,7 @@
     when: ansible_os_family =="Debian"
 
   - name: start webserver on ubuntu
-    apt:
+    service:
       name: apache2
       state: started
     when: ansible_os_family =="Debian"
@@ -21,7 +21,7 @@
     when: ansible_os_family =="RedHat"
 
   - name: start webserver on linux
-    yum:
+    service:
       name: https
       state: started
     when: ansible_os_family =="RedHat" 
