@@ -1,2 +1,2 @@
-webserveron_ubuntu : maven
+webserveron_ubuntu : tree
 webserveron_amazon : httpd
